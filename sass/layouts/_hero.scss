@@ -1,0 +1,60 @@
+.hero{
+    text-align: center;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    background-color: #C4C4C4;
+    background-image: var(--gradient),
+    url(../images/hero-bg-mob.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+    @include retina {
+        background-image: var(--gradient),
+        url(../images/hero-bg-mob-2x.jpg);
+    }
+    @include tablet {
+        background-image: var(--gradient),
+        url(../images/hero-bg-tab.jpg);
+        @include retina {
+        background-image: var(--gradient),
+        url(../images/hero-bg-tab-2x.jpg);
+    }
+    }
+    @include desktop {
+        max-width: 1600px; 
+        padding-top: 200px;
+        padding-bottom: 200px;
+        background-image: var(--gradient),
+        url(../images/hero-bg.jpg);
+        @include retina {
+        background-image: var(--gradient),
+        url(../images/hero-bg-2x.jpg);
+    }
+    }
+}       
+
+.content__title {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    margin: auto;
+    margin-bottom: 30px;
+    width: 100%;
+    @include mobile {
+        width: 360px;
+    }
+    @include desktop {
+        font-size: 44px;
+        line-height: 60px;
+        width: 696px;
+    }
+}
+
+.content__btn {
+    padding: 10px 32px;
+}

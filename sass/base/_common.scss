@@ -1,0 +1,22 @@
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+color: #757575;
+}
+
+.section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    @include desktop {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    
+}

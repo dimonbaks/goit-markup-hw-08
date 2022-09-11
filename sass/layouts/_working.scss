@@ -1,0 +1,43 @@
+.working {
+    display: none;
+   
+    @include desktop {
+        display: flex;
+        text-align: center;
+        padding-top: 94px;
+        padding-bottom: 94px;    
+    }
+}
+
+.working__title {
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--dark-color);
+    margin-bottom: 50px;
+}
+
+.working__list {
+    display: flex;
+    gap: 30px;
+}
+
+.working__item {
+    width: calc((100% - 60px) / 3);
+}
+
+.box {
+    position: relative;
+}
+
+.box__one-title {
+    padding: 27px 82px;
+}
+
+.box__two-title {
+    padding: 27px 85px;
+}
+
+.box__three-title {
+    padding: 27px 90px;
+}
