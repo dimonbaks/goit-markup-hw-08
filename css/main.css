@@ -511,7 +511,7 @@ body {
 
 .contacts-link {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--grey-color);
@@ -535,8 +535,22 @@ body {
   }
 }
 
-.header-icon {
-  margin-right: 10px;
+.header-icon-mail {
+  margin-right: 8px;
+}
+@media screen and (min-width: 1200px) {
+  .header-icon-mail {
+    margin-right: 10px;
+  }
+}
+
+.header-icon-tel {
+  margin-right: 8px;
+}
+@media screen and (min-width: 1200px) {
+  .header-icon-tel {
+    margin-right: 10px;
+  }
 }
 
 .btn-menu {
@@ -759,6 +773,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .benefits {
+    padding-top: 94px;
     padding-bottom: 0;
   }
 }
