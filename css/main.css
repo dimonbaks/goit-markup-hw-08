@@ -536,10 +536,14 @@ body {
 }
 
 .header-icon-mail {
+  width: 14px;
+  height: 10px;
   margin-right: 8px;
 }
 @media screen and (min-width: 1200px) {
   .header-icon-mail {
+    width: 16px;
+    height: 12px;
     margin-right: 10px;
   }
 }
@@ -549,6 +553,8 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .header-icon-tel {
+    width: 10px;
+    height: 16px;
     margin-right: 10px;
   }
 }
